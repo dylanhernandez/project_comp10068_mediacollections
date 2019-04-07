@@ -1,0 +1,32 @@
+﻿<Window x:Class="Lab5B.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lab5B - Media Collections - Dylan Hernandez - 000307857" Height="558" Width="695" Name="windowMain" Loaded="windowMain_Loaded">
+    <FrameworkElement.Resources>
+        <Style x:Key="defaultButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="FrameworkElement.Height" Value="23"/>
+            <Setter Property="FrameworkElement.VerticalAlignment" Value="Top"/>
+        </Style>
+    </FrameworkElement.Resources>
+    <Grid>
+        <Rectangle>
+            <Shape.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop x:Name="startGradient" Offset="0.0" Color="Black"/>
+                    <GradientStop x:Name="stopGradient" Offset="1.0" Color="AliceBlue"/>
+                </LinearGradientBrush>
+            </Shape.Fill>
+        </Rectangle>
+        <ListBox Name="listMedia" SelectionChanged="listMedia_SelectionChanged" Margin="12,12,0,12" HorizontalAlignment="Left" Width="255"></ListBox>
+        <Label Name="lblSummaryTitle" Height="33" Margin="275,162,272,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Foreground="AliceBlue">Summary:</Label>
+        <TextBox Name="txtbxSummary" Margin="280,192,12,47" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" BorderThickness="1" IsReadOnly="true" ></TextBox>
+        <TextBox Name="txtSearchBox" HorizontalAlignment="Right" Margin="0,12,12,0" VerticalAlignment="Top" Width="255" Height="23"/>
+        <Button Name="btnAllBooks" Click="btnAllBooks_Click"  Margin="280,12,316,0" Style="{StaticResource defaultButtonStyle}">List Books</Button>
+        <Button Name="btnAllMovies" Click="btnAllMovies_Click"  Margin="280,41,316,0" Style="{StaticResource defaultButtonStyle}">List Movies</Button>
+        <Button Name="btnAllSongs" Click="btnAllSongs_Click" Margin="280,70,316,0" Style="{StaticResource defaultButtonStyle}">List Songs</Button>
+        <Button Name="btnAllMedia" Click="btnAllMedia_Click"  Margin="280,99,316,0" Style="{StaticResource defaultButtonStyle}">List All</Button>
+        <Button Name="btnSearchTitle" Click="btnSearchTitle_Click" Style="{StaticResource defaultButtonStyle}" HorizontalAlignment="Right" Margin="0,41,192,0" Width="75">Search</Button>
+        <Button Name="btnExit" Click="btnExit_Click" HorizontalAlignment="Right" Margin="0,0,12,12" VerticalAlignment="Bottom" Width="75">Exit</Button>
+        <Button Name="btnClearAll" Click="btnClearAll_Click" Margin="0,0,117,12" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75">Clear</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+D:\Visual Studio Projects\Lab5B\Lab5B\bin\Debug\Lab5B.exe.config
+D:\Visual Studio Projects\Lab5B\Lab5B\bin\Debug\Lab5B.exe
+D:\Visual Studio Projects\Lab5B\Lab5B\bin\Debug\Lab5B.pdb
+D:\Visual Studio Projects\Lab5B\Lab5B\obj\Debug\Lab5B.csprojResolveAssemblyReference.cache
+D:\Visual Studio Projects\Lab5B\Lab5B\obj\Debug\MainWindow.baml
+D:\Visual Studio Projects\Lab5B\Lab5B\obj\Debug\MainWindow.g.cs
+D:\Visual Studio Projects\Lab5B\Lab5B\obj\Debug\App.g.cs
+D:\Visual Studio Projects\Lab5B\Lab5B\obj\Debug\Lab5B_MarkupCompile.cache
+D:\Visual Studio Projects\Lab5B\Lab5B\obj\Debug\Lab5B.g.resources
+D:\Visual Studio Projects\Lab5B\Lab5B\obj\Debug\Lab5B.Properties.Resources.resources
+D:\Visual Studio Projects\Lab5B\Lab5B\obj\Debug\Lab5B.csproj.GenerateResource.Cache
+D:\Visual Studio Projects\Lab5B\Lab5B\obj\Debug\Lab5B.exe
+D:\Visual Studio Projects\Lab5B\Lab5B\obj\Debug\Lab5B.pdb
